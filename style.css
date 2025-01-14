@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: grey;
+}
+
+.container{
+    border: 10px solid rgb(3, 3, 70);
+    width: 80vw;
+    height: fit-content;
+    background-color: rgb(207, 192, 255);
+    margin: 10px;
+    padding: 2%;
+}
+
+.image{
+    height: 30vw;
+    border-radius: 500rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    border: 10px solid rgba(147, 114, 255, 0.603);
+}
+
+.Header{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.Header-Name{
+    font-size: 2rem;
+}
+.Header-Name h3{    
+    text-align: right;
+}
+.Missile{
+    margin-top: 10vw;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.content p{
+    font-size: large;
+    padding: 2%;
+}
+
+.Bio{
+    margin: 1rem;
+    padding: 1rem;
+}
+.Bio p{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.Bio li{
+    margin-top: 1rem;
+}
+
+.end{
+    text-align: right;
+}
